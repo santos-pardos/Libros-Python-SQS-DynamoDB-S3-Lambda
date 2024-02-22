@@ -26,8 +26,8 @@ mkdir project
 cd project
 git clone https://github.com/santos-pardos/Libros-Python-SQS-DynamoDB-S3-Lambda.git
 cd ..
-mv project/aws-event-project/* project/
-sudo rm -r project/aws-event-project
+mv project/Libros-Python-SQS-DynamoDB-S3-Lambda/* project/
+sudo rm -r project/Libros-Python-SQS-DynamoDB-S3-Lambda
 
 cd project/
 python3 app.py
