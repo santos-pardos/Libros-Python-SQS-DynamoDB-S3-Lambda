@@ -13,7 +13,7 @@ csrf = CSRFProtect(app)
 
 # Configura el cliente de DynamoDB usando el rol asignado a la instancia EC2
 session = boto3.Session()
-dynamodb = session.resource('dynamodb', region_name='us-east-2')
+dynamodb = session.resource('dynamodb', region_name='us-east-1')
 
 table_name = 'libros'
 
