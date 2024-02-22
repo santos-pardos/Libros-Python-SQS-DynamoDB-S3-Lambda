@@ -17,7 +17,7 @@ Todo el sistema está desplegado y ejecutándose en una instancia EC2 de AWS, lo
 ```bash
 sudo apt update
 sudo apt ugrade -y
-sudo apt install python3-pis
+sudo apt install python3-pip
 sudo pip install flask
 sudo pip install Flask-WTF
 sudo pip install boto3
