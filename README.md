@@ -24,7 +24,7 @@ sudo pip install boto3
 
 mkdir project
 cd project
-git clone https://github.com/facuoppi/aws-event-project.git
+git clone https://github.com/santos-pardos/Libros-Python-SQS-DynamoDB-S3-Lambda
 cd ..
 mv project/aws-event-project/* project/
 sudo rm -r project/aws-event-project
