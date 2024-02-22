@@ -116,6 +116,10 @@ Permisos con LabRole
 ```bash
 Crear una cola "libros" estandar con permisos LabRole
 ```
+## SNS
+```bash
+Crear una cola "libros" estandar y subscripción por email.
+```
 ## EventBridge
 ```bash
 Crear una pipe "libros" estandar con permisos LabRole
