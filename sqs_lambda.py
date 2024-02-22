@@ -39,7 +39,7 @@ def lambda_handler(event, context):
             
             # Guardar los datos transformados en un archivo en S3
             s3.put_object(
-                Bucket='project01-libros-raw-2024',
+                Bucket='mi-bucket-libros-2024',
                 Key=file_name,
                 Body=json.dumps(transformed_data),
                 ContentType='application/json'
